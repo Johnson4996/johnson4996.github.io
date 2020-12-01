@@ -153,63 +153,6 @@ $('.portfolio-showcase').mixItUp();
 
 
 
-// ===== 8. Fact Counter ==== 
-
-var a = 0;
-$(window).scroll(function() {
-
-  var oTop = $('#fact-counter').offset().top - window.innerHeight;
-  if (a == 0 && $(window).scrollTop() > oTop) {
-    $('.counter-value').each(function() {
-      var $this = $(this),
-        countTo = $this.attr('data-count');
-      $({
-        countNum: $this.text()
-      }).animate({
-          countNum: countTo
-        },
-
-        {
-
-          duration: 2000,
-          easing: 'swing',
-          step: function() {
-            $this.text(Math.floor(this.countNum));
-          },
-          complete: function() {
-            $this.text(this.countNum);
-            //alert('finished');
-          }
-
-        });
-    });
-    a = 1;
-  }
-
-});
-
-
-
-// ===== 9. Testimonial Slide ==== 
-
-$(".testimonial-slide").owlCarousel({
-
-    loop: true,
-    autoPlay: false,
-    navigation: false,
-    pagination: true,
-    navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-    slideSpeed: 800,
-    items: 1,
-    itemsDesktop: [1199, 1],
-    itemsDesktopSmall: [991.98, 1],
-    itemsTablet: [768, 1],
-    itemsTabletSmall: false,
-    itemsMobile: [380, 1]
-
-});
-
-
 
 // ===== 10. Scroll to Top ==== 
 

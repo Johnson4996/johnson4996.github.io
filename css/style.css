@@ -602,6 +602,31 @@ header .container {
 	transform: translateY(0px);
 	opacity: 1
 }
+
+
+/*===============================
+   Modals for Portfolio Section
+===============================*/
+
+.modal-content{
+	background-color: #12191E;
+}
+
+.modal-exit-btn{
+color:#fff;
+}
+
+.modal-body-text{
+	font-size: medium;
+}
+
+.btn-secondary{
+	
+}
+
+
+
+
 /*===============================
 	14. Contact Block Section
 ===============================*/
