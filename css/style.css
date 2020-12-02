@@ -568,7 +568,7 @@ header .container {
 	bottom: 0;
 	right: 0;
 	margin: auto;
-	background: #151C22;
+	background: #273745 url(../images/zoom.png) no-repeat center 40%;
 	background-size: 50px 50px;
 	opacity: 0;
 	filter: alpha(opacity=0);
@@ -620,8 +620,8 @@ color:#fff;
 	font-size: medium;
 }
 
-.btn-secondary{
-	
+.modal-gif{
+	width:100%;
 }
 
 
