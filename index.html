@@ -226,7 +226,9 @@
                 <div class="portfolio-controls">
                     <ul>
                         <li class="filter" data-filter="all">All</li>
-                        <li class="filter" data-filter=".dev">Development</li>
+                        <li class="filter" data-filter=".front">Front-End</li>
+                        <li class="filter" data-filter=".full">Full Stack</li>
+                        <li class="filter" data-filter=".group">Group Projects</li>
                     </ul>
                 </div>
             </div>
@@ -237,8 +239,12 @@
 
                     
                     <!-- Portfolio Image and Caption -->
-                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mix dev">
-                        <a href="images/work/work-2.jpg" class="portfolio-effect" data-toggle="modal" data-target="#exampleModal" > <img class="portfolio-img" src="images/work/work-2.jpg" alt=""> <span class="portfolio-overlay"></span> <span class="portfolio-text"></span> </a>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mix front">
+                        <a href="images/work/work-2.jpg" class="portfolio-effect" data-toggle="modal" data-target="#frontCapModal" > <img class="portfolio-img" src="images/work/work-2.jpg" alt=""> <span class="portfolio-overlay"></span> <span class="portfolio-text"></span> </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mix front group">
+                        <a href="images/work/work-1.jpg" class="portfolio-effect" data-toggle="modal" data-target="#holidayRoadModal" > <img class="portfolio-img" src="images/work/work-1.jpg" alt=""> <span class="portfolio-overlay"></span> <span class="portfolio-text"></span> </a>
                     </div>
 
                     <!-- Portfolio Image and Caption -->
@@ -374,11 +380,8 @@
                     <!-- Footer Social Link -->
                     <div class="social-icon">
                         <ul>
-                            <li><a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="icofont icofont-social-facebook"></i></a></li>
-                            <li><a href="https://twitter.com/" target="_blank" title="Twitter"><i class="icofont icofont-social-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/" target="_blank" title="Linkedin"><i class="icofont icofont-brand-linkedin"></i></a></li>
-                            <li><a href="https://plus.google.com/" target="_blank" title="Google Plus"><i class="icofont icofont-social-google-plus"></i></a></li>
-                            <li><a href="https://www.pinterest.com/" target="_blank" title="Pinterest"><i class="icofont icofont-social-pinterest"></i></a></li>
+                            <li><a href="https://www.github.com/Johnson4996" target="_blank" title="GitHub"><i class="icofont icofont-social-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/s-johnson7/" target="_blank" title="Linkedin"><i class="icofont icofont-brand-linkedin"></i></a></li>
                         </ul>
                     </div>
 
@@ -412,7 +415,7 @@
 
 
     <!--Modal for Front end capstone-->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="frontCapModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -424,17 +427,44 @@
       <div class="modal-body">
         <img class = "modal-gif" src="./images/work/ScubaLogVideo.gif" />
         <p class="modal-body-text">Scuba Log is a digital way for SCUBA divers to log their dives. <br> This is a CRUD application I built with react for my front-end project at NSS. 
-        <br>Technologies Used: HTML, CSS, JS, React, Googl Maps API
+        <br>Technologies Used: HTML, CSS, JS, React, JSON Server
         </p>
       </div>
       <div class="modal-footer">
         <a href="https://github.com/Johnson4996/ScubaLog" class = "btn btn-secondary btn-lg active" role="button" >View on GitHub</a>
+        <a href="https://scubalog.onrender.com" class = "btn btn-secondary btn-lg active" role="button" >View Project</a>
       </div>
     </div>
   </div>
 </div>
+
+
+    <!--Modal for Holiday Road-->
+    <div class="modal fade" id="holidayRoadModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Holiday Road - Simple Itinerary Creator</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span class="modal-exit-btn" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class = "modal-gif" src="./images/work/HolidayRoadVideo.gif" />
+        <p class="modal-body-text">Holiday Road is a simple application that allows the user to create an itinerary from a list of parks, attractions, and eateries. <br> This was a team application created during my time at NSS. 
+        <br>Technologies Used: HTML, CSS, JS, JSON Server
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/Johnson4996/holiday-road-elegant-eagles" class = "btn btn-secondary btn-lg active" role="button" >View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!--modal for back end capstone-->
-    <div class="modal fade" id="frontEndModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="backCapModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
