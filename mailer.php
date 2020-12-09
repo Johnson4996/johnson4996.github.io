@@ -1,6 +1,6 @@
 <?
-$subject ="Contact Form Submission Samrat One Page Personal Portfolio Template";
-$to="withhtml@gmail.com, support@withhtml.com";
+$subject ="Contact Form Submission";
+$to="shjohnson4996@gmail.com, shjohnson4996@gmail.com";
 $msg="\n <strong>Contact Information</strong> <br><br><br>";  
 $msg.="\n <strong>Name:</strong>&nbsp;&nbsp;&nbsp;&nbsp;  " .$_POST["name"]."\n <br><br>";
 $msg.="\n <strong>Address:</strong>&nbsp;  " .$_POST["address"]. "\n <br><br>";
